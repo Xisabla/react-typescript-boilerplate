@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "lib": [
+            "DOM",
+            "ES2017",
+            "ES2018",
+            "ES2019",
+            "ES2020"
+        ],
+
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "noImplicitAny": true,
+        "rootDir": "./src",
+        "jsx": "react",
+        "sourceMap": true
+
+    },
+
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+
+    "exclude": [
+        "node_modules"
+    ]
+}
+
